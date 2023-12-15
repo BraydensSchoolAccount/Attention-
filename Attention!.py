@@ -14,10 +14,8 @@ else:
 
 number = int(input("Write a number divisible by 5 for a hello >  "))
 
-# This checks if number is divisible by 5 using mod (Yes, you did teach me this*. No, you can't dock points)
+# This checks if number is divisible by 5 using mod (Yes, you did teach me this)
 if number % 5 == 0:
     print("Hello!")
 else:
     print("Goodbye!")
-
-# *I technically learned this from my scratch days
